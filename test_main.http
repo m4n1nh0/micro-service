@@ -5,8 +5,12 @@ Accept: application/json
 
 ###
 
-GET http://127.0.0.1:8000/hello/User
+GET http://127.0.0.1:8000/city/Aracaju
 Accept: application/json
 
 ###
 
+GET http://127.0.0.1:8000/Cord/-20.3856&-43.5035
+Accept: application/json
+
+###
