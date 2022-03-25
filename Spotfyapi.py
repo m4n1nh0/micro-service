@@ -1,7 +1,7 @@
 import requests
 
-client_id = "04e480ef96274a468c13f6ca4eb137ec"
-client_secret = "efa6bd93ffa6410d8eb6b64382c353d1"
+client_id = "SEU_ID"
+client_secret = "SEU_SECRET"
 URL_TOKEN = 'https://accounts.spotify.com/api/token'
 auth = requests.post(URL_TOKEN, {
     'grant_type': 'client_credentials',

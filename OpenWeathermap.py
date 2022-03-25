@@ -2,7 +2,7 @@ import json
 
 import requests
 
-key = "b77e07f479efe92156376a8b07640ced"
+key = "SUA_LICENCA"
 base_url = "https://api.openweathermap.org/data/2.5/weather?"
 url_cord = "https://api.openweathermap.org/data/2.5/onecall?"
 
