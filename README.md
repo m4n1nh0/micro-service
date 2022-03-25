@@ -14,13 +14,13 @@ A linguagem utilizada para desenvolvimento foi a Python, e a IDE foi PyCharm.
 Para consultar temperatura pelo nome da cidade, usa o seguinte comando
     
     http://localhost:8000/city/{city}
-    Colocando a cidade São Critovão obtive o seguinte resultado:
+    Colocando a cidade São Critovão, obtive o seguinte resultado:
     {"Info":"São Cristóvão","Temp":"26.95","url":"https://open.spotify.com/playlist/37i9dQZF1DWVLcZxJO5zyf"}
 
-Para Consuta com coordenadas latitude e longetude, usa o seguinte comando
+Para consultar por coordenadas latitude e longitude, usa o seguinte comando
     
     http://localhost:8000/Cord/{lat}&{lon}
-    Colocando a latitude (-20.3856) e longetude (-43.5035) obtive o seguinte resultado:
+    Colocando a latitude (-20.3856) e longitude (-43.5035), obtive o seguinte resultado:
     {"Info":"cord-20.3856/-43.5035","Temp":"16.12","url":"https://open.spotify.com/playlist/37i9dQZF1DWVLcZxJO5zyf"}
 
 Objetivo: 
