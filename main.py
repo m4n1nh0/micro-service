@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
 
 import OpenWeathermap
 import Spotfyapi
@@ -7,12 +6,6 @@ import Spotfyapi
 app = FastAPI()
 Weathermap = OpenWeathermap
 Playlist = Spotfyapi
-
-
-class Retorno(BaseModel):
-    info: str
-    temp: float
-    playlist: str
 
 
 @app.get("/")
